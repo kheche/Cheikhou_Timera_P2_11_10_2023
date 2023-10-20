@@ -30,13 +30,13 @@ body {
 }
 .logo-box {
   width: 161.09px;
-  height: 79px;
+  height: 69px;
   padding: 30px 50px 30px 30px;
   gap: 10px;
 }
 .logo-image {
   width: 61.09px;
-  height: 19px;
+  height: 17px;
 }
 .header-nav {
   display: flex;
@@ -48,7 +48,7 @@ body {
 .header-nav .accommodation {
   border-top: #0065fc solid 3px;
   padding-top: 20px;
-  background-position: fixed;
+  color: #0065fc;
 }
 .header-nav .activity {
   padding-top: 20px;
@@ -56,7 +56,6 @@ body {
 .header-nav a:hover {
   border-top: #0065fc solid 3px;
   padding-top: 20px;
-  background-position: fixed;
 }
 hr {
   display: none;
@@ -70,10 +69,16 @@ hr {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+.title-and-subtitle-box {
+  margin-bottom: 35px;
+}
+.subtitle {
+  margin-top: 10px;
+}
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<Bloc des filtres<<<<<<<<<<<< */
 #search-and-filter {
   padding: 15px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .title-and-subtitle-box {
   margin: 15px auto;
@@ -86,6 +91,7 @@ hr {
   /* gap: 10px; */
   border: #f2f2f2 solid;
   border-radius: 15px;
+  margin-top: 25px;
 }
 .fa-localization-serach {
   display: flex;
@@ -142,7 +148,7 @@ hr {
 
 /* ****************LES BOUTONS DE FILTRE ****************** */
 .filter-elements {
-  border: #f2f2f2 solid 2px;
+  border: #f2f2f2 solid 3px;
   width: 100%;
   height: 35px;
   padding: 19px 10px;
@@ -491,7 +497,6 @@ a {
   } */
   .header-nav .activity {
     /* border-bottom: solid 3px; */
-    background-position: fixed;
     width: 50%;
     text-align: center;
     border-top: none;
@@ -502,8 +507,6 @@ a {
   }
   .header-nav .activity:hover {
     border-bottom: #0065fc solid 3px;
-
-    background-position: fixed;
     width: 50%;
     text-align: center;
     border-top: none;
@@ -514,9 +517,7 @@ a {
 
   .header-nav .accommodation {
     border-bottom: #0065fc 3px solid;
-
     padding-bottom: 17px;
-    background-position: fixed;
     padding-top: 0;
     text-align: center;
     width: 50%;
@@ -529,7 +530,6 @@ a {
     border-top: none;
     border-bottom: #0065fc 3px solid;
     padding-bottom: 17px;
-    background-position: fixed;
     padding-top: 0;
     text-align: center;
     width: 50%;
@@ -599,7 +599,7 @@ a {
   #footer-box {
     display: flex;
     flex-direction: column;
-    padding: 10px auto;
+    padding: 10px 10;
     margin-top: 25px;
   }
   .footer-child {
