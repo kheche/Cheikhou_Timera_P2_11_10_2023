@@ -241,8 +241,9 @@ a {
   width: 33%;
   box-shadow: 1px 2px 3px 3px #dad8d8;
   border-radius: 20px;
-  height: 215.25px;
+  height: 225.25px;
   margin: 10px;
+  border: solid 5px #ffffff;
 }
 .card-accommodation {
   width: 100%;
