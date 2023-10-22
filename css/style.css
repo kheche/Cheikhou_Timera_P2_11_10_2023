@@ -227,7 +227,7 @@ a {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
   width: 65%;
 }
 
@@ -431,6 +431,7 @@ a {
     margin-top: 25px;
     gap: 5px !important;
     background: #ffffff;
+    width: 100%;
   }
   .title-accomodation-marseille,
   .activity-title-cards {
