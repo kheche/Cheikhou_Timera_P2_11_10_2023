@@ -245,13 +245,13 @@ a {
   margin: 10px;
   border: solid 5px #ffffff;
 }
-.card-accommodation {
+.marseille-card-link {
   width: 100%;
   height: 215.25px;
 
   border-radius: 20px;
 }
-.card-accommodation img {
+.marseille-card-link img {
   width: 100%;
   height: 55%;
   border-radius: 20px 20px 0 0;
